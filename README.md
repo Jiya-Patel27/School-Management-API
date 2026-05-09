@@ -10,7 +10,7 @@ When first accessed, it may take **2–5 minutes** to wake up.
 After the backend loads, everything works instantly.
 
 Live API : [School-Management-API](https://school-management-api-hbjs.onrender.com)  
-GitHub Repository : [School-Management-API](https://github.com/Jiya-Patel27/School-Management-API)
+GitHub Repository : [School-Management-API](https://github.com/Jiya-Patel27/School-Management-API)   
 Postman Collection File : Included in GitHub repository under /postman folder
 
 
