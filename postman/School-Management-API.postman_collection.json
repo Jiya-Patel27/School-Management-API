@@ -1,0 +1,60 @@
+{
+  "info": {
+    "_postman_id": "ce175d5b-dca9-42af-8195-a5adc1eff265",
+    "name": "School-Management-API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54652597",
+    "_collection_link": "https://go.postman.co/collection/54652597-ce175d5b-dca9-42af-8195-a5adc1eff265?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://school-management-api-hbjs.onrender.com/listSchools",
+          "protocol": "https",
+          "host": [
+            "school-management-api-hbjs",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "listSchools"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add School",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Green Valley School\",\r\n  \"address\": \"123 Main Street, Mumbai\",\r\n  \"latitude\": 19.076,\r\n  \"longitude\": 72.8777\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://school-management-api-hbjs.onrender.com/addSchool",
+          "protocol": "https",
+          "host": [
+            "school-management-api-hbjs",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
